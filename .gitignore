@@ -1,12 +1,12 @@
-#dependencies
+# Dependencies
 node_modules
 
-#compiled output
+# Compiled output
 /dist
 /temp
 /out-tsc
 
-#IDEs and editors 
+# IDEs and editors 
 .angular/*
 !.angular/
 /.idea
@@ -17,14 +17,14 @@ node_modules
 .settings/
 *.sublime-workspace
 
-#IDE -VsCode
+# IDE -VsCode
 .vscode/*
-!.vscode/settings.json
+!.vscode/settings.json 
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
 
-#misc
+# Misc
 /.sass-cache
 /connect.lock
 /coverage
@@ -38,3 +38,18 @@ testem.log
 .DS_Store
 Thumbs.db
 .angular
+
+# MacOs specific files 
+.DS_Store
+
+#swap files 
+*.swp
+*.swo
+*.swx
+
+# Coverage reports
+coverage
+
+# Environment variables
+.env*
+.env.local*

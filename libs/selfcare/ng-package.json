@@ -1,0 +1,7 @@
+{
+  "$schema": "../../node_modules/ng-packagr/ng-package.schema.json",
+  "dest": "../../dist/libs/selfcare",
+  "lib": {
+    "entryFile": "src/index.ts"
+  }
+}

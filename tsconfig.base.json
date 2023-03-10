@@ -10,11 +10,39 @@
     "importHelpers": true,
     "target": "es2015",
     "module": "esnext",
-    "lib": ["es2017", "dom"],
+    "lib": [
+      "es2017",
+      "dom"
+    ],
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@poc-monorepo/auth": [
+        "libs/auth/src/index.ts"
+      ],
+      "@poc-monorepo/core": [
+        "libs/core/src/index.ts"
+      ],
+      "@poc-monorepo/reports": [
+        "libs/reports/src/index.ts"
+      ],
+      "@poc-monorepo/selfcare": [
+        "libs/selfcare/src/index.ts"
+      ],
+      "@poc-monorepo/shared-ui": [
+        "libs/shared-ui/src/index.ts"
+      ],
+      "@poc-monorepo/user-profile": [
+        "libs/user-profile/src/index.ts"
+      ],
+      "@poc-monorepo/users": [
+        "libs/users/src/index.ts"
+      ]
+    }
   },
-  "exclude": ["node_modules", "tmp"]
+  "exclude": [
+    "node_modules",
+    "tmp"
+  ]
 }
