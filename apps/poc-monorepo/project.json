@@ -24,9 +24,13 @@
           "apps/poc-monorepo/src/assets"
         ],
         "styles": [
-          "apps/poc-monorepo/src/styles.scss"
+          "apps/poc-monorepo/src/styles.scss",
+          "node_modules/bootstrap/dist/css/bootstrap.css"
         ],
-        "scripts": []
+        "scripts": [
+          "node_modules/bootstrap/dist/js/bootstrap.js",
+          "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+        ]
       },
       "configurations": {
         "production": {
