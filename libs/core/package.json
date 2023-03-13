@@ -8,5 +8,12 @@
   "dependencies": {
     "tslib": "^2.3.0"
   },
+  "i18n": [
+    {
+      "scope": "CORE",
+      "path": "src/lib/assets/i18n",
+      "strategy": "join"
+    }
+  ],
   "sideEffects": false
 }

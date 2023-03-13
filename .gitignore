@@ -53,3 +53,6 @@ coverage
 # Environment variables
 .env*
 .env.local*
+/apps/portal/src/assets/i18n/en.vendor.json
+/apps/poc-monorepo/src/assets/i18n/en.vendor.json
+/apps/poc-monorepo/src/assets/i18n/pt.vendor.json
